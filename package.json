@@ -1,0 +1,46 @@
+{
+  "name": "@thearc/eslint-config",
+  "version": "0.0.1",
+  "author": "Nico Hülscher <nico.huelscher@thearc.de>",
+  "description": "Default THE ARC configuration for ESLint projects.",
+  "scripts": {
+    "test": "node ./index.js",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "default.yml"
+  ],
+  "homepage": "https://www.thearc.de/",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^12.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint-config-next": "12.0.8",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^35.4.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-svelte3": "^3.4.0",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint-config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
+}
