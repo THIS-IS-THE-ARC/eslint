@@ -1,5 +1,5 @@
 {
-  "name": "@thearc/eslint-config",
+  "name": "@the-arc-gmbh/eslint-config",
   "version": "0.0.1",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Default THE ARC configuration for ESLint projects.",
