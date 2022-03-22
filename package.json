@@ -42,5 +42,12 @@
   },
   "devDependencies": {
     "eslint": "^7.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THIS-IS-THE-ARC/eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/THIS-IS-THE-ARC/eslint/issues"
   }
 }
