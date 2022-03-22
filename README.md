@@ -15,10 +15,10 @@ or using yarn
 
 Then install this configuration:
 
-    npm install @the-arc/eslint-config --save-dev
+    npm install @the-arc-gmbh/eslint-config --save-dev
 or
 
-    yarn add -D @the-arc/eslint-config
+    yarn add -D @the-arc-gmbh/eslint-config
 
 ## Usage
 
@@ -26,6 +26,6 @@ In your `package.json` file, add:
 
 ```json
 {
-    "extends": "@thearc/eslint-config"
+    "extends": "@the-arc-gmbh/eslint-config"
 }
 ```
