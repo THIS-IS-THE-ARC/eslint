@@ -5,9 +5,7 @@ plugins: [
     '@typescript-eslint',
     'import',
     'jsdoc',
-    'sort-keys-fix',
-    'react',
-    'svelte3'
+    'sort-keys-fix'
 ]
 extends: [
     'plugin:import/recommended',
@@ -19,12 +17,6 @@ extends: [
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
     "plugin:prettier/recommended",
-]
-overrides: [
-    {
-      files: ['*.svelte'],
-      processor: 'svelte3/svelte3'
-    }
 ]
 parserOptions:
     ecmaFeatures:

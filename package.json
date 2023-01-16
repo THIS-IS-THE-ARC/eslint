@@ -1,6 +1,6 @@
 {
-  "name": "@the-arc-gmbh/eslint-config",
-  "version": "0.0.6",
+  "name": "@the-arc-gmbh/eslint-base-config",
+  "version": "0.0.1",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Default THE ARC configuration for ESLint projects.",
   "scripts": {
@@ -15,17 +15,16 @@
   ],
   "homepage": "https://www.thearc.de/",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "@typescript-eslint/parser": "^5.2.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsdoc": "^35.4.3",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-svelte3": "^3.4.0",
-    "prettier": "^2.5.1",
-    "prettier-eslint": "^13.0.0"
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.27.4",
+    "eslint-plugin-jsdoc": "39.6.4",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "prettier": "2.8.3",
+    "prettier-eslint": "15.0.1"
   },
   "keywords": [
     "eslintconfig",
@@ -41,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/THIS-IS-THE-ARC/eslint.git"
+    "url": "git+https://github.com/thearc-hq/eslint.git"
   },
   "bugs": {
-    "url": "https://github.com/THIS-IS-THE-ARC/eslint/issues"
+    "url": "https://github.com/thearc-hq/eslint/issues"
   }
 }
