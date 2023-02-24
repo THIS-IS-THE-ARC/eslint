@@ -1,29 +1,28 @@
 {
   "name": "@the-arc-gmbh/eslint-config",
-  "version": "0.1.0-beta.2",
+  "version": "1.0.0-beta.3",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Default THE ARC configuration for ESLint projects.",
+  "scripts": {
+    "test": "node ./index.js",
+    "prepublish": "npm test"
+  },
   "files": [
     "LICENSE",
     "README.md",
     "index.js",
-    "next.js",
-    "svelte.js",
-    "node_modules"
+    "default.yml"
   ],
-  "homepage": "https://thearc.de/",
-  "peerDependencies": {
-    "@next/eslint-plugin-next": "13.2.1",
+  "homepage": "https://www.thearc.de/",
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.53.0",
     "@typescript-eslint/parser": "5.53.0",
-    "eslint-config-next": "13.2.1",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsdoc": "40.0.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-sort-keys-fix": "1.1.2",
-    "eslint-plugin-svelte3": "4.0.0",
     "prettier": "2.8.4",
     "prettier-eslint": "15.0.1"
   },
@@ -37,14 +36,13 @@
     "node": "^10.12.0 || >=12.0.0"
   },
   "devDependencies": {
-    "eslint": "8.34.0",
-    "typescript": "4.9.5"
+    "eslint": "8.34.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thearc-hq/eslint.git"
+    "url": "git+https://github.com/THIS-IS-THE-ARC/eslint.git"
   },
   "bugs": {
-    "url": "https://github.com/thearc-hq/eslint/issues"
+    "url": "https://github.com/THIS-IS-THE-ARC/eslint/issues"
   }
 }

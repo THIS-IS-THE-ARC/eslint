@@ -1,4 +1,4 @@
-# ESLint Configuration for THE ARC projects
+# ESLint Base Configuration for THE ARC projects
 
 Additional [Rules](https://eslint.org/docs/rules/) can be found on the eslint website.
 
@@ -27,7 +27,5 @@ In your `package.json` file, add:
 ```json
 {
     "extends": "@the-arc-gmbh/eslint-config", // base-config
-    "extends": "@the-arc-gmbh/eslint-config/next", // next-config
-    "extends": "@the-arc-gmbh/eslint-config/svelte" // svelte-config
 }
 ```
