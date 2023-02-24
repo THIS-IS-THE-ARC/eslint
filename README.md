@@ -26,6 +26,8 @@ In your `package.json` file, add:
 
 ```json
 {
-    "extends": "@the-arc-gmbh/eslint-config"
+    "extends": "@the-arc-gmbh/eslint-config", // base-config
+    "extends": "@the-arc-gmbh/eslint-config/next", // next-config
+    "extends": "@the-arc-gmbh/eslint-config/svelte" // svelte-config
 }
 ```
