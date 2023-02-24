@@ -1,6 +1,6 @@
 {
   "name": "@the-arc-gmbh/eslint-config",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Default THE ARC configuration for ESLint projects.",
   "files": [
@@ -12,7 +12,7 @@
     "node_modules"
   ],
   "homepage": "https://thearc.de/",
-  "dependencies": {
+  "peerDependencies": {
     "@next/eslint-plugin-next": "13.2.1",
     "@typescript-eslint/eslint-plugin": "5.53.0",
     "@typescript-eslint/parser": "5.53.0",
@@ -22,8 +22,6 @@
     "eslint-plugin-jsdoc": "40.0.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "eslint-plugin-svelte3": "4.0.0",
     "prettier": "2.8.4",

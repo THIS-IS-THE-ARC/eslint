@@ -1,7 +1,3 @@
-import def from './configs/default';
-import next from './configs/next';
-import svelte from './configs/svelte';
-
 module.exports = {
   "env": {
     "browser": true,
@@ -190,10 +186,5 @@ module.exports = {
     "wrap-iife": "error",
     "yield-star-spacing": "error",
     "yoda": ["error", "never", { "exceptRange": true }]
-  },
-  configs: {
-    default: def,
-    next,
-    svelte
   },
 };

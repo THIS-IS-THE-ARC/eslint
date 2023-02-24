@@ -6,15 +6,13 @@
 
 module.exports = {
   extends: [
-    './index.js',
-    'plugin:react/recommended',
     'plugin:@next/eslint-plugin-next',
     'next/core-web-vitals',
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
     "plugin:prettier/recommended",
   ],
-  plugins: ['@next/eslint-plugin-next', 'react'],
+  plugins: ['next'],
   rules: {
     'react-in-jsx-scope': 'off'
   }
