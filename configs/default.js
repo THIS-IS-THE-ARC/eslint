@@ -1,6 +1,8 @@
-import def from './configs/default';
-import next from './configs/next';
-import svelte from './configs/svelte';
+/**
+ * Contains the base config.
+ * @author Nico Hülscher
+ */
+'use strict';
 
 module.exports = {
   "env": {
@@ -190,10 +192,5 @@ module.exports = {
     "wrap-iife": "error",
     "yield-star-spacing": "error",
     "yoda": ["error", "never", { "exceptRange": true }]
-  },
-  configs: {
-    default: def,
-    next,
-    svelte
-  },
+  }
 };

@@ -6,7 +6,7 @@
 
 module.exports = {
   extends: [
-    '@the-arc-gmbh/eslint-config',
+    './index.js',
     'plugin:react/recommended',
     'plugin:@next/eslint-plugin-next',
     'next/core-web-vitals',
