@@ -15,8 +15,8 @@
   ],
   "homepage": "https://www.thearc.de/",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.54.1",
-    "@typescript-eslint/parser": "5.54.1",
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
     "eslint-config-prettier": "8.7.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsdoc": "40.0.3",
