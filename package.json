@@ -1,6 +1,6 @@
 {
   "name": "@the-arc-gmbh/eslint-config",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "author": "Nico Hülscher <nico.huelscher@thearc.de>",
   "description": "Default THE ARC configuration for ESLint projects.",
   "scripts": {
@@ -15,16 +15,16 @@
   ],
   "homepage": "https://www.thearc.de/",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.55.0",
-    "@typescript-eslint/parser": "5.55.0",
-    "eslint-config-prettier": "8.7.0",
-    "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-jsdoc": "40.0.3",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-prettier": "4.2.1",
+    "@typescript-eslint/eslint-plugin": "6.19.1",
+    "@typescript-eslint/parser": "6.19.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsdoc": "48.0.4",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-prettier": "5.1.3",
     "eslint-plugin-sort-keys-fix": "1.1.2",
-    "prettier": "2.8.4",
-    "prettier-eslint": "15.0.1"
+    "prettier": "3.2.4",
+    "prettier-eslint": "16.3.0"
   },
   "keywords": [
     "eslintconfig",
